@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
-
-export default class  extends Component {
-    render () {
-        return (
-            <div>
-                Hello World
-            </div>
-        );
-    }
-}
+import Link from 'next/link'
+export default () =>(
+    <div>
+        <h1>Hello World !</h1>
+        <Link href="/about">About</Link>
+    </div>
+)
