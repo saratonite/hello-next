@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import Hello from '../components/hello';
+import Hello from '../components/hello'
+import Layout from '../components/layout'
 
 export default () =>(
-    <div>
-        <h1>Hello World !</h1>
+    <Layout>
+    
         <Hello/>
-        <Link href="/about"><a>About</a></Link>
-    </div>
+    </Layout>
 )

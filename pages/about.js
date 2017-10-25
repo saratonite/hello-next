@@ -1,7 +1,8 @@
 import Link from 'next/link'
+import Layout from '../components/layout'
+
 export default ()=> (
-    <div>
+    <Layout>
         <h1>About</h1>
-        <Link href="/"><a>Home</a></Link>
-    </div>
+    </Layout>
 )

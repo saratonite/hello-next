@@ -1,6 +1,6 @@
 export default () => (
-  <div>
+  <h1>
 	Hello World
-  </div>
+  </h1>
 
 )
