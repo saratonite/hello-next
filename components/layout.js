@@ -10,7 +10,7 @@ const layoutStyle = {
 const layout = (props) => (
     <div style={ layoutStyle }>
         <Header/>
-        <div style={{"flexGrow":1}}>
+        <div style={{"flexGrow":1, padding:5}}>
             { props.children }
         </div>
         
